@@ -14,7 +14,7 @@
 
 ## About Me
 
-I'm an **AI & Data Science Instructor** at Upgrade Hub and **Senior ServiceNow Consultant** at Fruition Partners (DXC Technology), based in Oviedo, Asturias 🇪🇸
+I'm an **AI & Data Science Instructor** at Upgrade Hub and **Senior ServiceNow Consultant** at Fruition Partners (DXC Technology).
 
 I teach LLMs, RAG, AI agents, Computer Vision and Python to developers transitioning into AI — while bringing 8+ years of enterprise software engineering experience to every project.
 
