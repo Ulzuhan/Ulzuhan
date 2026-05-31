@@ -79,11 +79,11 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ## Education
 
-🎓 **Master's in Artificial Intelligence** — UNIR (2025–2026)
+🎓 **Master's in Artificial Intelligence** — UNIR (2026)
 
-🔐 **Master's in Information Security** — UNIR (2018–2020)
+🔐 **Master's in CyberSecurity** — UNIR (2020)
 
-🖥️ **Software Engineering (Ingeniería Informática)** — University of Oviedo
+🖥️ **Software Engineering** — University of Oviedo
 
 ---
 
