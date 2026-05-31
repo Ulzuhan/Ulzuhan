@@ -22,7 +22,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 - 🤖 Teaching LLMs, RAG systems, AI agents & Computer Vision (YOLO) at Upgrade Hub
 - 🦾 Building with LangChain, OpenAI/Anthropic APIs, vector databases and FastAPI
-- 🎓 Completing a Master's Degree in Artificial Intelligence at UNIR
+- 🎓 Master's Degree in Artificial Intelligence (UNIR) — completed
 - 🔐 Background in Cybersecurity (Master's in Information Security, UNIR)
 - ☁️ 8+ years delivering enterprise software at scale (ServiceNow ITSM — Generali, COFCO, Sanofi, Acciona)
 - 🌐 Full-stack experience: TypeScript, Next.js, Flutter/Dart, Rust, Java
@@ -77,20 +77,9 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ---
 
-## Featured Projects
-
-| Project | Description | Stack |
-|--------|-------------|-------|
-| [**VaultNode**](https://github.com/Ulzuhan/VaultNode) | Offline, air-gapped knowledge vault — secure alternative to Obsidian/Notion | TypeScript |
-| [**Masterclass-YOLO**](https://github.com/Ulzuhan/Masterclass-YOLO) | Computer vision & object detection with YOLO | Python / Jupyter |
-| [**mini-data-explorer**](https://github.com/Ulzuhan/mini-data-explorer) | Interactive CSV exploration tool built with Streamlit | Python |
-| [**AIko-discord-bot**](https://github.com/Ulzuhan/AIko-discord-bot) | AI Assistant discord bot powered by LLMs | Python |
-
----
-
 ## Education
 
-🎓 **Master's in Artificial Intelligence** — UNIR (2025–2026, in progress)
+🎓 **Master's in Artificial Intelligence** — UNIR (2025–2026)
 🔐 **Master's in Information Security** — UNIR (2018–2020)
 🎓 **Software Engineering** — University of Oviedo
 
