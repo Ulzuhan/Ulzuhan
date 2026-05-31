@@ -80,8 +80,10 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 ## Education
 
 🎓 **Master's in Artificial Intelligence** — UNIR (2025–2026)
+
 🔐 **Master's in Information Security** — UNIR (2018–2020)
-🎓 **Software Engineering** — University of Oviedo
+
+🖥️ **Software Engineering (Ingeniería Informática)** — University of Oviedo
 
 ---
 
@@ -89,9 +91,9 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ulzuhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<img src="https://github-readme-stats.vercel.app/api?username=Ulzuhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" width="480"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ulzuhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ulzuhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" width="320"/>
 
 </div>
 
