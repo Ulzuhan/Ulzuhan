@@ -30,6 +30,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 | Project | What it is | Built with |
 |---------|------------|------------|
+| **[Reed](https://github.com/Ulzuhan/reed)** | Self-hosted RAG service — upload documents, ask questions, get streamed answers with citations you can click. Hybrid retrieval (dense + BM25 fused by Qdrant), a 100% offline mode via Ollama, and a built-in evaluation suite with a 30-question golden set. Docker image on GHCR. | Python · FastAPI · LangChain · Qdrant |
 | **[DocDrop](https://github.com/Ulzuhan/docdrop)** | Self-hosted file sharing with expiring links — chunked resumable uploads, streamed ZIP downloads, installable PWA, no database. Ships as a Docker image on GHCR. | Next.js · React · TypeScript |
 | **[Respiro](https://github.com/Ulzuhan/sighra)** | Offline-first breathing & stress-relief app — custom canvas animations, haptic-guided "zero-eyes" sessions, fully private with zero backend. | Flutter · Dart |
 | **[Masterclass: from CNNs to YOLO](https://github.com/Ulzuhan/Masterclass-YOLO)** | Hands-on Computer Vision masterclass — detection, segmentation, pose estimation, and a specialist model benchmarked against a generalist, with ready-to-run demos. | Python · YOLO · Jupyter |
