@@ -2,8 +2,9 @@
 
 # Hey, I'm José Manuel 👋
 
-### AI & Data Science Instructor · Senior Software Engineer · AI Engineer
+### Co-founder @ Hesperia Labs · AI Engineer · AI & Data Science Instructor
 
+[![Hesperia Labs](https://img.shields.io/badge/Hesperia_Labs-hesperialabs.com-0E7490?style=flat-square)](https://hesperialabs.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-manulinares6-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manulinares6)
 [![Portfolio](https://img.shields.io/badge/Portfolio-ulzuhan.github.io-blueviolet?style=flat-square)](https://ulzuhan.github.io)
 
@@ -13,7 +14,7 @@
 
 ## About Me
 
-I'm an **AI & Data Science Instructor** at Upgrade Hub and **Senior ServiceNow Consultant** at Fruition Partners (DXC Technology). I teach LLMs, RAG, AI agents and Computer Vision to developers transitioning into AI — backed by 8+ years of enterprise software engineering.
+I'm the co-founder of **[Hesperia Labs](https://hesperialabs.com)** — a local-first AI consultancy: we design and deploy private AI systems on your own infrastructure, for organizations that can't send sensitive data to the cloud. I also teach LLMs, RAG, AI agents and Computer Vision as an **AI & Data Science Instructor** at Upgrade Hub — all backed by 8+ years of enterprise software engineering.
 
 What sets me apart: **applied AI skills + solid software engineering fundamentals + production mindset**.
 
@@ -23,7 +24,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 - ☁️ Enterprise delivery at scale — ServiceNow ITSM for Generali, COFCO, Sanofi and Acciona
 - 🌐 Full-stack experience: TypeScript, Next.js, Flutter/Dart, Rust, Java
 
-> 🔍 Open to **AI Engineer / ML Engineer / Generative AI Engineer** roles — ideally remote.
+> 🤝 Need private AI on your own infrastructure? **[Hesperia Labs](https://hesperialabs.com)** takes on consulting engagements — architecture, pilots and production rollout.
 
 ---
 
@@ -32,6 +33,8 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 **Everything below shares one thesis: your data stays on your own hardware.** Local-first services, hardened by default, with their claims verified in CI.
 
 ### 🌾 The Reed ecosystem — document Q&A that never leaves your machine
+
+*Built in the open as the technical portfolio of [Hesperia Labs](https://hesperialabs.com).*
 
 - **[Reed](https://github.com/Ulzuhan/reed)** — the engine. A local-first RAG service built from scratch: hybrid retrieval (dense + BM25 fused in Qdrant), evidence-aware refusal, audited citations, and a reproducible evaluation suite with a 41-question golden set.<br>`Python · FastAPI · LangChain · Qdrant · Ollama`
 - **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** — the deployment. General chat plus document RAG in one `docker compose up`: images pinned by digest, hardened containers, zero telemetry, backup/restore and browser E2E verified in CI, GPU and air-gap profiles.<br>`Docker Compose · Ollama · Qdrant · Open WebUI · Reed`
@@ -90,6 +93,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 | Role | Company | Period |
 |------|---------|--------|
+| 🏛️ Co-founder | [Hesperia Labs](https://hesperialabs.com) | Dec 2025 – Present |
 | 🎓 AI & Data Science Instructor | Upgrade Hub | Sept 2025 – Present |
 | 🤖 AI Engineer (Internship) | Impacto Tecnológico | Sept – Nov 2025 |
 | ⚙️ Senior ServiceNow Consultant | Fruition Partners / DXC Technology | Mar 2018 – Present |
@@ -124,6 +128,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 <div align="center">
 
+[![Hesperia Labs](https://img.shields.io/badge/Hesperia_Labs-hesperialabs.com-0E7490?style=for-the-badge)](https://hesperialabs.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jos%C3%A9%20Manuel%20Cotarelo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/manulinares6)
 [![Portfolio](https://img.shields.io/badge/Portfolio-ulzuhan.github.io-blueviolet?style=for-the-badge)](https://ulzuhan.github.io)
 [![Email](https://img.shields.io/badge/Email-delvalle.linares%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:delvalle.linares@gmail.com)
