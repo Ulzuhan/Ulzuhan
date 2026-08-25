@@ -17,7 +17,8 @@ I'm an **AI & Data Science Instructor** at Upgrade Hub and **Senior ServiceNow C
 
 What sets me apart: **applied AI skills + solid software engineering fundamentals + production mindset**.
 
-- 🦾 Building with LangChain, OpenAI/Anthropic APIs, vector databases and FastAPI
+- 🌾 Creator of **[Reed](https://github.com/Ulzuhan/reed)** — a local-first RAG service with hybrid retrieval, evidence-aware refusal, audited citations and a reproducible evaluation suite
+- 🔒 I build **local-first, privacy-first software** — my cybersecurity background shapes how I ship AI: self-hosted, hardened, claims verified in CI
 - 🎓 Master's in Artificial Intelligence (UNIR) · Master's in Cybersecurity (UNIR)
 - ☁️ Enterprise delivery at scale — ServiceNow ITSM for Generali, COFCO, Sanofi and Acciona
 - 🌐 Full-stack experience: TypeScript, Next.js, Flutter/Dart, Rust, Java
@@ -28,14 +29,23 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ## Featured Projects
 
-| Project | What it is | Built with |
-|---------|------------|------------|
-| **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** | Production-minded local AI stack — general chat plus document Q&A with verifiable citations, in one `docker compose up`. Images pinned by digest, hardened, zero telemetry; the backup/restore round-trip and a browser E2E run in CI on every change; measured benchmarks with the platform declared per number; GPU and air-gap profiles. v0.1.0 ships an attested offline bundle. | Docker Compose · Ollama · Qdrant · Open WebUI |
-| **[Reed](https://github.com/Ulzuhan/reed)** | Self-hosted RAG service — upload documents, ask questions, get streamed answers with citations you can click. Hybrid retrieval (dense + BM25 fused by Qdrant), a 100% offline mode via Ollama, and a built-in evaluation suite with a 41-question golden set. Docker image on GHCR. | Python · FastAPI · LangChain · Qdrant |
-| **[DocDrop](https://github.com/Ulzuhan/docdrop)** | Self-hosted file sharing with expiring links — chunked resumable uploads, streamed ZIP downloads, installable PWA, no database. Ships as a Docker image on GHCR. | Next.js · React · TypeScript |
-| **[Respiro](https://github.com/Ulzuhan/sighra)** | Offline-first breathing & stress-relief app — custom canvas animations, haptic-guided "zero-eyes" sessions, fully private with zero backend. | Flutter · Dart |
-| **[Masterclass: from CNNs to YOLO](https://github.com/Ulzuhan/Masterclass-YOLO)** | Hands-on Computer Vision masterclass — detection, segmentation, pose estimation, and a specialist model benchmarked against a generalist, with ready-to-run demos. | Python · YOLO · Jupyter |
-| **[Streamlit Pokédex](https://github.com/Ulzuhan/streamlit-pokedex)** | Interactive data-exploration app I use in class — search, multi-type filters and radar-chart stat comparisons over PokéAPI data. | Python · Streamlit |
+**Everything below shares one thesis: your data stays on your own hardware.** Local-first services, hardened by default, with their claims verified in CI.
+
+### 🌾 The Reed ecosystem — document Q&A that never leaves your machine
+
+- **[Reed](https://github.com/Ulzuhan/reed)** — the engine. A local-first RAG service built from scratch: hybrid retrieval (dense + BM25 fused in Qdrant), evidence-aware refusal, audited citations, and a reproducible evaluation suite with a 41-question golden set.<br>`Python · FastAPI · LangChain · Qdrant · Ollama`
+- **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** — the deployment. General chat plus document RAG in one `docker compose up`: images pinned by digest, hardened containers, zero telemetry, backup/restore and browser E2E verified in CI, GPU and air-gap profiles.<br>`Docker Compose · Ollama · Qdrant · Open WebUI · Reed`
+- **[reed-mcp](https://github.com/Ulzuhan/reed-mcp)** — the bridge. Four read-only MCP tools that let Claude — or any MCP host — answer from your private documents with cited evidence.<br>`Python · MCP`
+
+### 🔒 Self-hosted products
+
+- **[DocDrop](https://github.com/Ulzuhan/docdrop)** — file sharing with expiring links: chunked resumable uploads for multi-GB files, previews, streamed ZIP downloads, installable PWA.<br>`Next.js · TypeScript`
+- **[TabUp](https://github.com/Ulzuhan/tabup)** — shared expense tracking for trips: multi-currency, uneven splits, settle-up payments, CSV export — and receipt OCR through a local vision model.<br>`Next.js · TypeScript · SQLite`
+- **[Respiro](https://github.com/Ulzuhan/sighra)** — offline-first breathing & stress-relief app: custom canvas animations, haptic-guided sessions, zero backend.<br>`Flutter · Dart`
+
+### 🎓 From my classes
+
+**[Masterclass: from CNNs to YOLO](https://github.com/Ulzuhan/Masterclass-YOLO)** — detection, segmentation and pose estimation, ready to run · **[Streamlit Pokédex](https://github.com/Ulzuhan/streamlit-pokedex)** — interactive data exploration over PokéAPI
 
 ---
 
@@ -45,6 +55,9 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
@@ -55,6 +68,7 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 
@@ -120,5 +134,5 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 ---
 
 <div align="center">
-  <i>Building intelligent systems that solve real problems, one commit at a time.</i>
+  <i>AI that runs where your data lives.</i>
 </div>
