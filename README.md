@@ -41,7 +41,6 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 - **[DocDrop](https://github.com/Ulzuhan/docdrop)** — file sharing with expiring links: chunked resumable uploads for multi-GB files, previews, streamed ZIP downloads, installable PWA.<br>`Next.js · TypeScript`
 - **[TabUp](https://github.com/Ulzuhan/tabup)** — shared expense tracking for trips: multi-currency, uneven splits, settle-up payments, CSV export — and receipt OCR through a local vision model.<br>`Next.js · TypeScript · SQLite`
-- **[Respiro](https://github.com/Ulzuhan/sighra)** — offline-first breathing & stress-relief app: custom canvas animations, haptic-guided sessions, zero backend.<br>`Flutter · Dart`
 
 ### 🎓 From my classes
 
