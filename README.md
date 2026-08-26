@@ -44,6 +44,9 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 - **[DocDrop](https://github.com/Ulzuhan/docdrop)** — file sharing with expiring links: chunked resumable uploads for multi-GB files, previews, streamed ZIP downloads, installable PWA.<br>`Next.js · TypeScript`
 - **[TabUp](https://github.com/Ulzuhan/tabup)** — shared expense tracking for trips: multi-currency, uneven splits, settle-up payments, CSV export — and receipt OCR through a local vision model.<br>`Next.js · TypeScript · SQLite`
+- **[Pixelforge](https://github.com/Ulzuhan/pixelforge)** — image tools for creators: background removal with an on-device U2-Net model, raster-to-SVG vectorization with vtracer. Images never leave your machine.<br>`Next.js · Python · U2-Net`
+- **[SecretDrop](https://github.com/Ulzuhan/secretdrop)** — share a secret once: encrypted in the browser, self-destructs the moment it is read.<br>`Next.js · TypeScript`
+- **[QR-Forge](https://github.com/Ulzuhan/qr-forge)** — dynamic QR codes: print once, retarget anytime, with scan analytics and OIDC single sign-on.<br>`Next.js · TypeScript · SQLite`
 
 ### 🎓 From my classes
 
