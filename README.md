@@ -117,18 +117,6 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Ulzuhan&theme=tokyonight&hide_border=true)](https://github.com/Ulzuhan)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ulzuhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&exclude_repo=ejemplo-github-pages,repositorio-de-prueba,texthaul-landing,ulzuhan.github.io,VaultNode)](https://github.com/Ulzuhan)
-
-</div>
-
----
-
 ## Let's Connect
 
 <div align="center">
