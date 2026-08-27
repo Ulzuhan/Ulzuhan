@@ -34,8 +34,6 @@ What sets me apart: **applied AI skills + solid software engineering fundamental
 
 ### 🌾 The Reed ecosystem — document Q&A that never leaves your machine
 
-*Built in the open as the technical portfolio of [Hesperia Labs](https://hesperialabs.com).*
-
 - **[Reed](https://github.com/Ulzuhan/reed)** — the engine. A local-first RAG service built from scratch: hybrid retrieval (dense + BM25 fused in Qdrant), evidence-aware refusal, audited citations, and a reproducible evaluation suite with a 41-question golden set.<br>`Python · FastAPI · LangChain · Qdrant · Ollama`
 - **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** — the deployment. General chat plus document RAG in one `docker compose up`: images pinned by digest, hardened containers, zero telemetry, backup/restore and browser E2E verified in CI, GPU and air-gap profiles.<br>`Docker Compose · Ollama · Qdrant · Open WebUI · Reed`
 - **[reed-mcp](https://github.com/Ulzuhan/reed-mcp)** — the bridge. Four read-only MCP tools that let Claude — or any MCP host — answer from your private documents with cited evidence.<br>`Python · MCP`
