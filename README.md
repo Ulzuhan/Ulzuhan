@@ -1,133 +1,65 @@
-<div align="center">
+# Manuel Linares
 
-# Hey, I'm José Manuel 👋
+### Software Engineer · Private AI &amp; Self-hosted Products
 
-### Co-founder @ Hesperia Labs · AI Engineer · AI & Data Science Instructor
+Co-founder at **Hesperia Labs** and **AI &amp; Data Science instructor**, with 8+ years of enterprise software experience.
 
-[![Hesperia Labs](https://img.shields.io/badge/Hesperia_Labs-hesperialabs.com-0E7490?style=flat-square)](https://hesperialabs.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-manulinares6-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manulinares6)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ulzuhan.github.io-blueviolet?style=flat-square)](https://ulzuhan.github.io)
+I build private AI tools, self-hosted applications and software that gives people more control over their data. My work spans application development, backend systems, deployment and technical teaching.
 
-</div>
+## Selected projects
 
----
+### 🌿 Reed — Private AI
 
-## About Me
+Tools for working with your knowledge using AI, with local and configurable model backends.
 
-I'm the co-founder of **[Hesperia Labs](https://hesperialabs.com)** — a local-first AI consultancy: we design and deploy private AI systems on your own infrastructure, for organizations that can't send sensitive data to the cloud. I also teach LLMs, RAG, AI agents and Computer Vision as an **AI & Data Science Instructor** at Upgrade Hub — all backed by 8+ years of enterprise software engineering.
+The ecosystem includes a self-hosted AI stack and an MCP integration. Data handling depends on the backend and client you choose.
 
-What sets me apart: **applied AI skills + solid software engineering fundamentals + production mindset**.
+[Reed](https://github.com/Ulzuhan/reed) · [Private AI Stack](https://github.com/Ulzuhan/private-ai-stack) · [Reed MCP](https://github.com/Ulzuhan/reed-mcp)
 
-- 🌾 Creator of **[Reed](https://github.com/Ulzuhan/reed)** — a local-first RAG service with hybrid retrieval, evidence-aware refusal, audited citations and a reproducible evaluation suite
-- 🔒 I build **local-first, privacy-first software** — my cybersecurity background shapes how I ship AI: self-hosted, hardened, claims verified in CI
-- 🎓 Master's in Artificial Intelligence (UNIR) · Master's in Cybersecurity (UNIR)
-- ☁️ Enterprise delivery at scale — ServiceNow ITSM for Generali, COFCO, Sanofi and Acciona
-- 🌐 Full-stack experience: TypeScript, Next.js, Flutter/Dart, Rust, Java
+### 📦 DocDrop — Self-hosted file sharing
 
-> 🤝 Need private AI on your own infrastructure? **[Hesperia Labs](https://hesperialabs.com)** takes on consulting engagements — architecture, pilots and production rollout.
+End-to-end encrypted file sharing with a React frontend and a Go backend, distributed as a single binary without a Node.js production runtime.
 
----
+The project includes browser tests, container checks and compatibility testing across upgrades and rollbacks.
 
-## Featured Projects
+[Repository](https://github.com/Ulzuhan/docdrop)
 
-**Everything below shares one thesis: your data stays on your own hardware.** Local-first services, hardened by default, with their claims verified in CI.
+### 🔐 Arveil — Private messaging
 
-### 🌾 The Reed ecosystem — document Q&A that never leaves your machine
+An experimental messaging project built with Rust, Go and Flutter, exploring end-to-end encryption and self-hosted infrastructure.
 
-- **[Reed](https://github.com/Ulzuhan/reed)** — the engine. A local-first RAG service built from scratch: hybrid retrieval (dense + BM25 fused in Qdrant), evidence-aware refusal, audited citations, and a reproducible evaluation suite with a 41-question golden set.<br>`Python · FastAPI · LangChain · Qdrant · Ollama`
-- **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** — the deployment. General chat plus document RAG in one `docker compose up`: images pinned by digest, hardened containers, zero telemetry, backup/restore and browser E2E verified in CI, GPU and air-gap profiles.<br>`Docker Compose · Ollama · Qdrant · Open WebUI · Reed`
-- **[reed-mcp](https://github.com/Ulzuhan/reed-mcp)** — the bridge. Four read-only MCP tools that let Claude — or any MCP host — answer from your private documents with cited evidence.<br>`Python · MCP`
+**Status: experimental beta. Not independently security-audited.**
 
-### 🔒 Self-hosted products
+[Repository](https://github.com/Ulzuhan/arveil)
 
-*All five run in production at [KaiCorp Labs](https://kaicorplabs.com), my independent lab — software I build and run myself, accounts by invitation.*
+## More tools
 
-- **[DocDrop](https://github.com/Ulzuhan/docdrop)** — file sharing with expiring links: chunked resumable uploads for multi-GB files, previews, streamed ZIP downloads, installable PWA.<br>`Next.js · TypeScript`
-- **[TabUp](https://github.com/Ulzuhan/tabup)** — shared expense tracking for trips: multi-currency, uneven splits, settle-up payments, CSV export — and receipt OCR through a local vision model.<br>`Next.js · TypeScript · SQLite`
-- **[Pixelforge](https://github.com/Ulzuhan/pixelforge)** — image tools for creators: background removal with an on-device U2-Net model, raster-to-SVG vectorization with vtracer. Images never leave your machine.<br>`Next.js · Python · U2-Net`
-- **[SecretDrop](https://github.com/Ulzuhan/secretdrop)** — share a secret once: encrypted in the browser, self-destructs the moment it is read.<br>`Next.js · TypeScript`
-- **[QR-Forge](https://github.com/Ulzuhan/qr-forge)** — dynamic QR codes: print once, retarget anytime, with scan analytics and OIDC single sign-on.<br>`Next.js · TypeScript · SQLite`
+Through **KaiCorp Labs**, I also develop focused web applications:
 
-### 🎓 From my classes
+- [TabUp](https://github.com/Ulzuhan/tabup)
+- [PixelForge](https://github.com/Ulzuhan/pixelforge)
+- [LinkUp](https://github.com/Ulzuhan/linkup)
+- [QR Forge](https://github.com/Ulzuhan/qr-forge)
+- [SecretDrop](https://github.com/Ulzuhan/secretdrop)
+- [SignDrop](https://github.com/Ulzuhan/signdrop)
 
-**[Masterclass: from CNNs to YOLO](https://github.com/Ulzuhan/Masterclass-YOLO)** — detection, segmentation and pose estimation, ready to run · **[Streamlit Pokédex](https://github.com/Ulzuhan/streamlit-pokedex)** — interactive data exploration over PokéAPI
+Each project documents its own deployment model, privacy properties and limitations.
 
----
+## Engineering focus
 
-## Tech Stack
+- **Private AI:** local inference, retrieval and evaluation
+- **Product engineering:** web applications, APIs and native clients
+- **Self-hosting:** containers, reproducible deployments and operational tooling
+- **Reliability:** automated tests, dependency checks and upgrade compatibility
 
-**AI / ML**
+My enterprise background includes senior ServiceNow consulting and technical delivery. I also teach AI and data science through practical, project-based sessions.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+## Teaching
 
-**Backend & DevOps**
+Examples and material from my technical classes:
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+[YOLO Masterclass](https://github.com/Ulzuhan/Masterclass-YOLO)
 
-**Frontend & Mobile**
+## Explore
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)
-
-**Enterprise**
-
-![ServiceNow](https://img.shields.io/badge/ServiceNow-007DBB?style=flat-square)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-
----
-
-## Experience
-
-| Role | Company | Period |
-|------|---------|--------|
-| 🏛️ Co-founder | [Hesperia Labs](https://hesperialabs.com) | Dec 2025 – Present |
-| 🎓 AI & Data Science Instructor | Upgrade Hub | Sept 2025 – Present |
-| 🤖 AI Engineer (Internship) | Impacto Tecnológico | Sept – Nov 2025 |
-| ⚙️ Senior ServiceNow Consultant | Fruition Partners / DXC Technology | Mar 2018 – Present |
-| 🔐 Cybersecurity Consultant | Treelogic | Mar – Jun 2018 |
-| 💻 Back-end Developer | GADD – Grupo Meana | Jun 2017 – Feb 2018 |
-
----
-
-## Education
-
-🎓 **Master's in Artificial Intelligence** — UNIR (2026)
-
-🔐 **Master's in Cybersecurity** — UNIR (2020)
-
-🖥️ **Software Engineering** — University of Oviedo
-
----
-
-## Let's Connect
-
-<div align="center">
-
-[![Hesperia Labs](https://img.shields.io/badge/Hesperia_Labs-hesperialabs.com-0E7490?style=for-the-badge)](https://hesperialabs.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jos%C3%A9%20Manuel%20Cotarelo-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/manulinares6)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ulzuhan.github.io-blueviolet?style=for-the-badge)](https://ulzuhan.github.io)
-[![Email](https://img.shields.io/badge/Email-delvalle.linares%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:delvalle.linares@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-  <i>AI that runs where your data lives.</i>
-</div>
+[Hesperia Labs](https://hesperialabs.com) · [KaiCorp Labs](https://kaicorplabs.com)
