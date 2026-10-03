@@ -38,7 +38,7 @@ End-to-end encrypted file sharing with a React frontend and a Go backend, distri
 
 The project includes browser tests, container checks and compatibility testing across upgrades and rollbacks.
 
-[Repository](https://github.com/Ulzuhan/docdrop)
+**[DocDrop repository](https://github.com/Ulzuhan/docdrop)**
 
 ### 🔐 Arveil — Private messaging
 
@@ -46,7 +46,7 @@ An experimental messaging project built with Rust, Go and Flutter, exploring end
 
 > **Status: experimental beta. Not independently security-audited.**
 
-[Repository](https://github.com/Ulzuhan/arveil)
+**[Arveil repository](https://github.com/Ulzuhan/arveil)**
 
 ---
 
