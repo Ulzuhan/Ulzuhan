@@ -1,109 +1,27 @@
-<div align="center">
+I build private AI and self-hosted software from Oviedo, Spain: tools that do useful work with your documents and files without sending them to someone else’s cloud.
 
-# José Manuel
+I co-founded [Hesperia Labs](https://hesperialabs.com), where we design and deploy AI systems on our clients’ own infrastructure. I’m also a ServiceNow consultant at DXC Technology, where for eight years I’ve built enterprise systems for clients like Grifols, Fluidra, Generali and Sanofi. In the evenings I teach AI and data science at Upgrade Hub.
 
-### Software Engineer · Private AI &amp; Self-hosted Products
+### Private AI
 
-Co-founder at **Hesperia Labs** and **AI &amp; Data Science instructor**, with 8+ years of enterprise software experience.
+- **[reed](https://github.com/Ulzuhan/reed)** · Self-hosted RAG. Streams answers with citations and abstains when the documents don’t support one. Hybrid dense + BM25 retrieval, a 41-question golden set with labelled evidence, and about 300 tests behind an 85% coverage gate.
+- **[reed-mcp](https://github.com/Ulzuhan/reed-mcp)** · Gives Claude Desktop, Claude Code and other MCP hosts cited evidence from your own documents. Four read-only tools.
+- **[private-ai-stack](https://github.com/Ulzuhan/private-ai-stack)** · Reed, Ollama, Qdrant and Open WebUI behind one `docker compose up`. CI reinstalls it from an offline bundle with networking disabled and round-trips a backup.
 
-[![Hesperia Labs](https://img.shields.io/badge/Hesperia_Labs-hesperialabs.com-0E7490?style=flat-square)](https://hesperialabs.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-manulinares6-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manulinares6)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ulzuhan.github.io-blueviolet?style=flat-square)](https://ulzuhan.github.io)
+### Encryption and self-hosting
 
-[Projects](#selected-projects) · [Tools](#more-tools) · [Engineering](#engineering-focus) · [Teaching](#teaching)
+- **[arveil](https://github.com/Ulzuhan/arveil)** · End-to-end encrypted messenger for families. MLS (RFC 9420) in a Rust core, a Go relay, Flutter apps for Android and macOS. A threat model with 13 invariants checked by about 620 tests. Beta, not independently audited.
+- **[docdrop](https://github.com/Ulzuhan/docdrop)** · File transfer up to 10 GiB, encrypted in the browser with chunked AES-256-GCM. A single Go binary on the standard library, with the React UI embedded.
+- **[secretdrop](https://github.com/Ulzuhan/secretdrop)** · One-time secret links, encrypted in the browser with AES-256-GCM; the key stays in the URL fragment. Crash-safe burn after the last view, in a single Go binary.
+- **[signdrop](https://github.com/Ulzuhan/signdrop)** · PAdES signing and verification in the browser, checked against 3,409 qualified authorities from 29 EU trusted lists.
+- Also: [tabup](https://github.com/Ulzuhan/tabup) (shared expenses) · [qr-forge](https://github.com/Ulzuhan/qr-forge) (editable QR codes) · [linkup](https://github.com/Ulzuhan/linkup) (URL shortener without tracking) · [pixelforge](https://github.com/Ulzuhan/pixelforge) (local background removal) · [kaicorp-account](https://github.com/Ulzuhan/kaicorp-account) (one sign-in for all of them)
 
-</div>
+All of these run on hardware I own, at [kaicorplabs.com](https://kaicorplabs.com).
 
----
+### Teaching
 
-## About
+- **[Masterclass-YOLO](https://github.com/Ulzuhan/Masterclass-YOLO)** · From CNNs to YOLO: the computer vision material I use with my bootcamp students.
 
-I build private AI tools, self-hosted applications and software that gives people more control over their data. My work spans application development, backend systems, deployment and technical teaching.
+<br>
 
----
-
-## Selected projects
-
-### 🌿 Reed — Private AI
-
-Tools for working with your knowledge using AI, with local and configurable model backends.
-
-The ecosystem includes a self-hosted AI stack and an MCP integration. Data handling depends on the backend and client you choose.
-
-**[Reed](https://github.com/Ulzuhan/reed)** · **[Private AI Stack](https://github.com/Ulzuhan/private-ai-stack)** · **[Reed MCP](https://github.com/Ulzuhan/reed-mcp)**
-
-### 📦 DocDrop — Self-hosted file sharing
-
-End-to-end encrypted file sharing with a React frontend and a Go backend, distributed as a single binary without a Node.js production runtime.
-
-The project includes browser tests, container checks and compatibility testing across upgrades and rollbacks.
-
-**[DocDrop repository](https://github.com/Ulzuhan/docdrop)**
-
-### 🔐 Arveil — Private messaging
-
-An experimental messaging project built with Rust, Go and Flutter, exploring end-to-end encryption and self-hosted infrastructure.
-
-> **Status: experimental beta. Not independently security-audited.**
-
-**[Arveil repository](https://github.com/Ulzuhan/arveil)**
-
----
-
-## More tools
-
-Through **KaiCorp Labs**, I also develop focused web applications:
-
-- **[TabUp](https://github.com/Ulzuhan/tabup)**
-- **[PixelForge](https://github.com/Ulzuhan/pixelforge)**
-- **[LinkUp](https://github.com/Ulzuhan/linkup)**
-- **[QR Forge](https://github.com/Ulzuhan/qr-forge)**
-- **[SecretDrop](https://github.com/Ulzuhan/secretdrop)**
-- **[SignDrop](https://github.com/Ulzuhan/signdrop)**
-
-Each project documents its own deployment model, privacy properties and limitations.
-
----
-
-## Engineering focus
-
-- **Private AI:** local inference, retrieval and evaluation
-- **Product engineering:** web applications, APIs and native clients
-- **Self-hosting:** containers, reproducible deployments and operational tooling
-- **Reliability:** automated tests, dependency checks and upgrade compatibility
-
-My enterprise background includes senior ServiceNow consulting and technical delivery. I also teach AI and data science through practical, project-based sessions.
-
-**Private AI &amp; retrieval**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-
-**Applications &amp; delivery**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-## Teaching
-
-Examples and material from my technical classes:
-
-[YOLO Masterclass](https://github.com/Ulzuhan/Masterclass-YOLO)
-
----
-
-<div align="center">
-
-## Explore
-
-**[Hesperia Labs](https://hesperialabs.com)** · **[KaiCorp Labs](https://kaicorplabs.com)**
-
-</div>
+[ulzuhan.github.io](https://ulzuhan.github.io) · [LinkedIn](https://www.linkedin.com/in/manulinares6) · [ulzuhan.market@gmail.com](mailto:ulzuhan.market@gmail.com)
