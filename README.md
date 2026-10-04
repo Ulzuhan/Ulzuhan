@@ -67,4 +67,4 @@ All of these run on hardware I own, at [kaicorplabs.com](https://kaicorplabs.com
 
 <br>
 
-[ulzuhan.github.io](https://ulzuhan.github.io) · [LinkedIn](https://www.linkedin.com/in/manulinares6) · [ulzuhan.market@gmail.com](mailto:ulzuhan.market@gmail.com)
+[ulzuhan.github.io](https://ulzuhan.github.io) · [LinkedIn](https://www.linkedin.com/in/manulinares6) · [manuel@hesperialabs.com](mailto:manuel@hesperialabs.com)
