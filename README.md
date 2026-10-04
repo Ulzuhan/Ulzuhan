@@ -48,6 +48,12 @@ I co-founded [Hesperia Labs](https://hesperialabs.com), where we deploy AI syste
 
 All of these run on hardware I own, at [kaicorplabs.com](https://kaicorplabs.com).
 
+### Apps
+
+- **[macthermal](https://github.com/guillerDev/macthermal)** · Your Mac’s temperatures and fan speeds straight from the SMC, as a CLI and a menu-bar app, with a plain-English verdict. Co-developed with [@guillerDev](https://github.com/guillerDev).  
+  <sub>Swift 6 · IOKit, no dependencies, no sudo · Apple Silicon and Intel · <code>brew install guillerDev/tap/macthermal</code></sub>
+- **[Stoa](https://ulzuhan.github.io/stoa/)** and **[Faro de Fe](https://ulzuhan.github.io/beacon-of-faith/)** · Flutter apps on Google Play. No accounts, no analytics, everything stays on the phone.
+
 ### Latest releases
 
 <!-- releases:start -->
