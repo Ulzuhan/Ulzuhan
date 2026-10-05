@@ -57,11 +57,11 @@ All of these run on hardware I own, at [kaicorplabs.com](https://kaicorplabs.com
 ### Latest releases
 
 <!-- releases:start -->
+- **[qr-forge](https://github.com/Ulzuhan/qr-forge)** [v0.7.1](https://github.com/Ulzuhan/qr-forge/releases/tag/v0.7.1) · Oct 5, 2026
 - **[secretdrop](https://github.com/Ulzuhan/secretdrop)** [v0.9.2](https://github.com/Ulzuhan/secretdrop/releases/tag/v0.9.2) · Oct 4, 2026
 - **[docdrop](https://github.com/Ulzuhan/docdrop)** [v3.1.2](https://github.com/Ulzuhan/docdrop/releases/tag/v3.1.2) · Oct 4, 2026
 - **[arveil](https://github.com/Ulzuhan/arveil)** [v0.2.0](https://github.com/Ulzuhan/arveil/releases/tag/v0.2.0) · Oct 1, 2026
 - **[linkup](https://github.com/Ulzuhan/linkup)** [v0.8.0](https://github.com/Ulzuhan/linkup/releases/tag/v0.8.0) · Sep 25, 2026
-- **[qr-forge](https://github.com/Ulzuhan/qr-forge)** [v0.7.0](https://github.com/Ulzuhan/qr-forge/releases/tag/v0.7.0) · Sep 15, 2026
 - **[pixelforge](https://github.com/Ulzuhan/pixelforge)** [v0.8.0](https://github.com/Ulzuhan/pixelforge/releases/tag/v0.8.0) · Sep 14, 2026
 <!-- releases:end -->
 
