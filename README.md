@@ -57,7 +57,7 @@ All of these run on hardware I own, at [kaicorplabs.com](https://kaicorplabs.com
 ### Latest releases
 
 <!-- releases:start -->
-- **[linkup](https://github.com/Ulzuhan/linkup)** [v0.8.1](https://github.com/Ulzuhan/linkup/releases/tag/v0.8.1) · Oct 6, 2026
+- **[linkup](https://github.com/Ulzuhan/linkup)** [v0.8.2](https://github.com/Ulzuhan/linkup/releases/tag/v0.8.2) · Oct 6, 2026
 - **[qr-forge](https://github.com/Ulzuhan/qr-forge)** [v0.7.1](https://github.com/Ulzuhan/qr-forge/releases/tag/v0.7.1) · Oct 5, 2026
 - **[secretdrop](https://github.com/Ulzuhan/secretdrop)** [v0.9.2](https://github.com/Ulzuhan/secretdrop/releases/tag/v0.9.2) · Oct 4, 2026
 - **[docdrop](https://github.com/Ulzuhan/docdrop)** [v3.1.2](https://github.com/Ulzuhan/docdrop/releases/tag/v3.1.2) · Oct 4, 2026
